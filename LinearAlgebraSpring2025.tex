@@ -1708,7 +1708,7 @@
 \end{frame}
 
 \begin{frame}
-  {Automorphisms of $\{1, \dots, n\}$}
+  {Endomorphisms of $\{1, \dots, n\}$}
 
   \begin{itemize}
   \item Let $\End(n)$ denote the space of all maps
@@ -1796,8 +1796,8 @@
     \[ D(e_1, \dots, e_n) = 1, \]
   \item The formula for $D$ is
     \begin{align*}
-      D(v_1, \dots, v_n) &=\sum_{\phi\in\End(n)} b^1_{\phi(1)}\cdots b^n_{\phi(n)}
-                           = \sum_{\sigma\in S_n} b^1_{\sigma(1)}\cdots b^n_{\sigma(n)}
+      D(v_1, \dots, v_n) &=\sum_{\phi\in\End(n)} \epsilon(\phi)b^1_{\phi(1)}\cdots b^n_{\phi(n)}
+                           = \sum_{\sigma\in S_n} \epsilon(\phi)b^1_{\sigma(1)}\cdots b^n_{\sigma(n)}
     \end{align*}
     where each $v_k = (b_k^1, \dots, b_k^n) = e_jb^j_k$
   \item Let $M$ be an $n$-by-$n$ matrix with columns $C_1, \dots, C_n$
